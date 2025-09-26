@@ -138,9 +138,9 @@ viaproxy = { group = "net.raphimc", name = "ViaProxy", version.ref = "viaproxy" 
 viaversion = { group = "com.viaversion", name = "viaversion", version.ref = "viaversion" }
 websocket = { group = "org.java-websocket", name = "Java-WebSocket", version.ref = "websocket" }
 
-protocol-common = { group = "com.github.eclipseisoffline", name = "Cloudburst-Protocol", version.ref = "protocol-common" }
-protocol-codec = { group = "com.github.eclipseisoffline", name = "Cloudburst-Protocol", version.ref = "protocol-codec" }
-protocol-connection = { group = "com.github.eclipseisoffline", name = "Cloudburst-Protocol", version.ref = "protocol-connection" }
+protocol-common = { group = "com.github.GeyserMC", name = "Protocol", version.ref = "protocol-common" }
+# protocol-codec = { group = "com.github.eclipseisoffline", name = "Cloudburst-Protocol", version.ref = "protocol-codec" } TODO
+# protocol-connection = { group = "com.github.eclipseisoffline", name = "Cloudburst-Protocol", version.ref = "protocol-connection" } TODO
 
 math = { group = "org.cloudburstmc.math", name = "immutable", version = "2.0" }
 
@@ -166,4 +166,4 @@ fastutil = [ "fastutil-int-int-maps", "fastutil-int-long-maps", "fastutil-long-o
 adventure = [ "adventure-text-serializer-gson", "adventure-text-serializer-legacy", "adventure-text-serializer-plain" ]
 log4j = [ "log4j-api", "log4j-core", "log4j-slf4j2-impl", "log4j-iostreams", "log4j-jul" ]
 jline = [ "jline-terminal", "jline-terminal-jna", "jline-reader" ]
-protocol = [ "protocol-common", "protocol-codec", "protocol-connection" ]
+protocol = [ "protocol-common"] #, "protocol-codec", "protocol-connection" ] TODO
